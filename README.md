@@ -287,9 +287,9 @@ This project satisfies all CUDA at Scale Independent Project Rubric criteria:
 
 | Criterion | Status | Evidence |
 |-----------|--------|----------|
-| **Code Repository (50%)** | ✅ Complete | • Repository exists with complete source code<br>• README.md with description and run instructions (this file)<br>• CLI takes `--input` and `--output` arguments (`src/cli.hpp`)<br>• Makefile included for compiling and running (`Makefile` with `make`, `make run`, `make clean` targets)<br>• Code structure follows organized `include/` and `src/` directories |
-| **Proof of Execution (25%)** | ✅ Complete | • Sample data provided: `data/Lena.png`<br>• Output generated: `data/Lena_edge.png` (see Example Results section)<br>• Timing output shown in Proof of Execution section<br>• Supports processing multiple frames (video) = "lot of small pieces of data" |
-| **Project Description (25%)** | ✅ Complete | • Project Purpose section explains goals and significance<br>• Algorithms & Kernels Detail subsection documents all convolution kernels<br>• Lessons Learned section covers challenges, takeaways, and optimizations |
+| **Code Repository (50%)** |  Complete | • Repository exists with complete source code<br>• README.md with description and run instructions (this file)<br>• CLI takes `--input` and `--output` arguments (`src/cli.hpp`)<br>• Makefile included for compiling and running (`Makefile` with `make`, `make run`, `make clean` targets)<br>• Code structure follows organized `include/` and `src/` directories |
+| **Proof of Execution (25%)** |  Complete | • Sample data provided: `data/Lena.png`<br>• Output generated: `data/Lena_edge.png` (see Example Results section)<br>• Timing output shown in Proof of Execution section<br>• Supports processing multiple frames (video) = "lot of small pieces of data" |
+| **Project Description (25%)** |  Complete | • Project Purpose section explains goals and significance<br>• Algorithms & Kernels Detail subsection documents all convolution kernels<br>• Lessons Learned section covers challenges, takeaways, and optimizations |
 
 Run clang-tidy for static analysis:
 ```bash
